@@ -14,9 +14,9 @@ These are not really DAOs because the founder holds the private keys to the trea
 any time. Other DAO solutions require a majority of holders to vote for each withdrawal proposal. 
 This is not practical when the CEO needs to act fast on investment opportunities. 
 gDAO solves this by introducing a delegation vote, wherein NFT holders give their vote to a 
-temporarily empowered “Council”. The Council consists of a group of eleven DAO members who have 
+temporarily empowered Board of Directors (BoD). The BoD consists of a group of eleven DAO members who have 
 limited authority to approve treasury withdrawals during their tenure. 
-The default tenure of a Counselor is one business quarter, and the default maximum withdrawal during 
+The default tenure of a BoD is one business quarter, and the default maximum withdrawal during 
 that period is 25% of total DAO funds. 
 
 ## Architecture
