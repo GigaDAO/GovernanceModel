@@ -26,8 +26,8 @@ that period is 25% of total DAO funds.
 1) Any NFT holder of a given collection can register with the DAO by staking one or more NFTs of that collection.
 2) A holder's voting power is proportional to the number of NFTs they have staked, 1 NFT = 1 Vote.
 3) To incentivize long term holders, a `vesting_period` (default = 1 month) can be configured such that the NFT's voting power vests in linearly over time. 
-4) Upon registration, a holder can set `is_board_candidate = true` if they wish to be considered as a candidate for the Board of Directors.
-4) Also upon registration, a holder can set `is_ceo_candidate = true` if they wish to be considered for the role of CEO.
+4) Upon registration, a holder can set `is_councillor_candidate = true` if they wish to be considered as a candidate for the Council.
+4) Also upon registration, a holder can set `is_high_councillor_candidate = true` if they wish to be considered for the role of High Councillor.
 
 ### Holder Voting Contract
 
@@ -52,5 +52,5 @@ that period is 25% of total DAO funds.
    1) gDAO config settings adjustment - this triggers a general election to change basic DAO settings.
    2) Emergency Vote of No Confidence - A supermajority vote by holders can dissolve existing Council.
 2) The Council Voting Contract can be used to trigger the following special election types:
-   1) Council Member Impeachment - A supermajority of Council votes can impeach one board member and automatically promote the next highest candidate from the most recent general election.
-   2) Emergency Vote of No Confidence - the Council can dissolve itself - thus removing any personal liability associated with holding private keys linked to `is_board_member = true` status.
+   1) Council Member Impeachment - A supermajority of Council votes can impeach one council member and automatically promote the next highest candidate from the most recent general election.
+   2) Emergency Vote of No Confidence - the Council can dissolve itself - thus removing any personal liability associated with holding private keys linked to `is_council_member = true` status.
