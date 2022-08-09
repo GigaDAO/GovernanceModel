@@ -43,7 +43,7 @@ that period is 25% of total DAO funds.
 2) Budget Election
    1) The High Councillor can submit any number of withdraw proposals, but the total value of all proposals is programmatically limited to `max_quarterly_budget` (default = 25% of total treasury value). 
    2) This way, if the High Councillor and Council are compromised, total risk to holders is limited.
-   3) Budget proposals must pass with a supermajority of BoD votes in order to be processed. 
+   3) Budget proposals must pass with a supermajority of Council votes in order to be processed. 
    4) All proposals and elections are on-chain so any holder can audit them. 
 
 
